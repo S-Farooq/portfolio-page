@@ -41,11 +41,20 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-              <a  onclick="scrollToAnchor('digilight');"  class="btn btn-success navbtn btn-sm">Digi-lighter</a>
-            </li>
             <li class="nav-item active">
-              <a  onclick="scrollToAnchor('lexsongreco');"  class="btn btn-success navbtn btn-sm">Lex-Song-Reco</a>
+              <a  onclick="scrollToAnchor('readingchart');"  class="btn btn-warning navbtn btn-sm">reading-chart</a>
+            </li>
+            <li class="nav-item">
+              <a  onclick="scrollToAnchor('twitteranalysis2');"  class="btn btn-primary navbtn btn-sm">Twit-Info-Flow</a>
+            </li>
+            <li class="nav-item ">
+              <a  onclick="scrollToAnchor('twitteranalysis1');"  class="btn btn-primary navbtn btn-sm">Twit-Comm-Det</a>
+            </li>
+          <li class="nav-item ">
+              <a  onclick="scrollToAnchor('digilight');"  class="btn btn-primary navbtn btn-sm">Digi-lighter</a>
+            </li>
+            <li class="nav-item">
+              <a  onclick="scrollToAnchor('lexsongreco');"  class="btn btn-primary navbtn btn-sm">Lex-Song-Reco</a>
             </li>
             <li class="nav-item">
                 <a onclick="scrollToAnchor('nlplit');"  class="btn btn-primary navbtn btn-sm">NLP-Lit-Analysis</a>
@@ -59,9 +68,9 @@
             <li class="nav-item">
                 <a onclick="scrollToAnchor('grasshopr');"  class="btn navbtn btn-success btn-sm">Grasshopr</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
                 <a onclick="scrollToAnchor('randomscraphs');"  class="btn navbtn btn-secondary btn-sm">Randomscraphs</a>
-            </li>
+            </li> -->
           </ul>
         </div>
       </div>
@@ -105,6 +114,54 @@
         <small>Stuff I've done.</small>
       </h1>
  -->
+
+ <div class="row project-div" id="readingchart">
+
+        <div class="col-md-7">
+          <a href="https://medium.com/@shahamfarooq/adlers-how-to-read-a-book-flow-chart-cb4547c26be1">
+            <img class="img-fluid rounded mb-3 mb-md-0" src="imgs/readingchart.jpeg" height="300" alt="">
+          </a>
+        </div>
+        <div class="col-md-5">
+          <h3>Adler's "How to Read a Book" Flow Chart</h3>
+          <p>Flow chart that summarizes the guide to reading as written in Adler & Doren's 'How to Read a Book'.</p>
+          <a class="btn btn-warning" href="https://medium.com/@shahamfarooq/adlers-how-to-read-a-book-flow-chart-cb4547c26be1">View Chart</a>
+        </div>
+      </div>
+
+
+ <div class="row project-div" id="twitteranalysis2">
+        <div class="col-md-7">
+          <a href="https://towardsdatascience.com/information-flow-within-twitter-community-def9e939bb99">
+            <img class="img-fluid rounded mb-3 mb-md-0" src="imgs/twitinfoflow.png" alt="">
+          </a>
+        </div>
+        <div class="col-md-5">
+          <h3>Analyzing Information Flow within a Twitter (Ego-)Community</h3>
+          <p>Exploring NLP methods to quantify and profile tweets and users in a twitter community based on their internal and external information flow.</p>
+          <a class="btn btn-primary" href="https://towardsdatascience.com/information-flow-within-twitter-community-def9e939bb99">View Write-up</a>
+        </div>
+      </div>
+      <!-- /.row -->
+
+      <hr>
+
+      <div class="row project-div" id="twitteranalysis1">
+        <div class="col-md-7">
+          <a href="https://towardsdatascience.com/generating-twitter-ego-networks-detecting-ego-communities-93897883d255">
+            <img class="img-fluid rounded mb-3 mb-md-0" src="imgs/twitcommdet.png" alt="">
+          </a>
+        </div>
+        <div class="col-md-5">
+          <h3>Generating Twitter Ego-Networks & Detecting Ego-Communities</h3>
+          <p>A Graph-based approach to community detection in Twitter Networks by modelling information flow between users.</p>
+          <a class="btn btn-primary" href="https://towardsdatascience.com/generating-twitter-ego-networks-detecting-ego-communities-93897883d255">View Write-up</a>
+        </div>
+      </div>
+      <!-- /.row -->
+
+      <hr>
+
     <div class="row project-div" id="digilight">
         <div class="col-md-7">
           <a href="http://digilight.shaham.me/">
@@ -114,7 +171,7 @@
         <div class="col-md-5">
           <h3>Digilighter</h3>
           <p>A Web App (Python-Flask) that digitizes highlights from images using Image Processing (contouring, OCR) and stores them in a user's EverNote account.</p>
-          <a class="btn btn-success" href="http://digilight.shaham.me">View WebApp</a>
+          <a class="btn btn-primary" href="http://digilight.shaham.me">View WebApp</a>
         </div>
       </div>
       <!-- /.row -->
@@ -130,7 +187,7 @@
         <div class="col-md-5">
           <h3>Lexical Song Recommendation</h3>
           <p>A Web App (Python-Flask) that reccommends you songs from pre-set playlists based on lyrical lexical qualities. Input a song you like or a block of text and I will recommend you a playlist, show you some fancy graphs, and let you automatically create a Spotify playlist!</p>
-          <a class="btn btn-success" href="http://songreco.shaham.me">View WebApp</a>
+          <a class="btn btn-primary" href="http://songreco.shaham.me">View WebApp</a>
         </div>
       </div>
       <!-- /.row -->
@@ -208,7 +265,7 @@
       <hr>
 
       <!-- Project Six -->
-      <div class="row project-div" id="randomscraphs">
+<!--       <div class="row project-div" id="randomscraphs">
 
         <div class="col-md-7">
           <a href="https://grasshopr.ca">
@@ -226,7 +283,7 @@
         </ul>
         </div>
         </div>
-      </div>
+      </div> -->
         <!-- /.row -->
       <hr>
 
